@@ -1,0 +1,72 @@
+<resources>
+
+    <!--topbar-->
+    <declare-styleable name="Topbar">
+        <attr name="mytitle" format="string"/>
+        <attr name="mytitleTextSize" format="dimension"/>
+        <attr name="mytitleTextColor" format="color"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="iv_left" format="reference|color"/>
+        <attr name="iv_right" format="reference|color"/>
+        <attr name="leftBackground" format="reference|color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="rightTextColor" format="color"/>
+        <attr name="rightBackground" format="reference|color"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightTextSize" format="dimension"/>
+    </declare-styleable>
+    <!--主页tab-->
+    <style name="maintab_toolbar_button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+		<item name="android:paddingLeft">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:drawablePadding">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">false</item>
+        <item name="android:textColor">@drawable/maintab_text_color_selector</item>
+    </style>
+
+
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+
+
+    <!-- 自定义仿IOS的AlertDialog的样式 -->
+    <style name="AlertDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

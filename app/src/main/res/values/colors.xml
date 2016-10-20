@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!--tab 标签-->
+    <color name="main_tab_select">#83d974</color>
+    <color name="main_tab_default">#5a5a5a</color>
+
+    <!--ActionSheetDialog对话框-->
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_blue">#037BFF</color>
+
+    <!--AlertDialog对话框-->
+    <color name="alertdialog_line">#c6c6c6</color>
+
+    <!--主页-->
+    <color name="circle_color">#43B4FA</color>
+    <color name="main_tab_line">#b2b2b2</color>
+
+</resources>

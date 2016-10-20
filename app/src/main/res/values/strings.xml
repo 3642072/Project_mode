@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project mode</string>
+    <!--tab标签-->
+    <string name="tab_home_text">签证</string>
+    <string name="tab_order_text">订单</string>
+    <string name="tab_mine_text">我的</string>
+
+    <!--首页-->
+    <string name="main_visa_title">签证</string>
+    <string name="main_order_title">我的订单</string>
+</resources>

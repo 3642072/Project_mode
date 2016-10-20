@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:custom="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.darren.projectmode.widget.Topbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        custom:iv_left="@android:color/white"
+        custom:leftBackground="@android:color/white"
+        custom:leftTextColor="@android:color/black"
+        custom:leftTextSize="5dp"
+        android:paddingLeft="10dp"
+        custom:mytitle="@string/main_order_title"
+        custom:mytitleTextColor="@android:color/black"
+        custom:mytitleTextSize="6sp"
+        custom:rightBackground="@android:color/white"
+        custom:rightTextColor="@android:color/black"
+        custom:rightTextSize="5dp"/>
+
+</LinearLayout>
